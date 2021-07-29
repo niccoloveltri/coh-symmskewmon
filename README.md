@@ -5,7 +5,7 @@ We study the structural proof theory of symmetric skew monoidal categories, prog
 the coherence problem for symmetric skew monoidal categories.
 
 
-The file [symmetric/Main.agda](https://github.com/niccoloveltri/coh-symmskewmon/blob/main/symmetric/Main.agda) for the whole development.
+The file [symmetric/Main.agda](https://github.com/niccoloveltri/coh-symmskewmon/blob/main/symmetric/Main.agda) imports the whole development.
 The code typechecks using Agda version 2.6.2 and Agda standard library version 1.6-dev.
 
 The [braided](https://github.com/niccoloveltri/coh-symmskewmon/tree/main/braided) directory contains proof systems for the free braided skew monoidal category (but not a focused sequent calculus).
