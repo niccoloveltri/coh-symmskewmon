@@ -1,11 +1,22 @@
 
 module Main where
 
+-- =======================================================================
+-- "Coherence via Focusing for Symmetric Skew Monoidal Categories"
+-- Niccolò Veltri
+
+-- Agda formalization associated to the WoLLIC'21 paper
+-- =======================================================================
+
 open import Utilities
 
 -- The free symmetric skew monoidal category as a Hilbert-style
 -- deductive system, called categorical calculus
 open import Fsk
+
+-- The categorical calculus satisfy the universal property of the free
+-- symm. skew monoidal category
+open import UniversalProperty
 
 -- The cut-free sequent calculus
 open import SeqCalc
