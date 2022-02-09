@@ -22,7 +22,7 @@ open import SoundComplete
 
 -- ====================================================================
 
--- Proof that ∀ f. strcmplt (sound f) ≐ f
+-- Proof that ∀ f. strcmplt (sound f) ≗ f
 
 cmpltsound' : {S : Stp} → {Γ : Cxt} → {C : Fma} → (f : S ∣ Γ ⊢ C) → cmplt (sound f) ≗ ⊗l⋆ S Γ f
 cmpltsound' ax = refl
